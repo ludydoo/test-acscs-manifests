@@ -3,7 +3,7 @@ tenant:
   organizationName: ""   # Organization Name
   id: ""                 # Tenant ID
   instanceType: ""       # Instance Type
-
+centralRdsCidrBlock: ""  # Central RDS CIDR Block
 vpa:                     # Vertical pod autoscaler configurations
   central:               # Central VPA configuration
     enabled: true
